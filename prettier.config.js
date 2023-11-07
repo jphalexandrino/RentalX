@@ -1,0 +1,3 @@
+module.exports = {
+    singleQuete: false,
+};
