@@ -1,6 +1,6 @@
 import { Router, request, response } from "express";
 
-import { CategoriesRepository } from "../repositories/CategoriesRepository";
+import { CategoriesRepository } from "../model/categoriesRepository";
 import { CreateCategoryService } from "../service/CreateCategoryService";
 import { PostgresCategoriesRepository } from "../repositories/PostgresCategoriesRepository";
 
