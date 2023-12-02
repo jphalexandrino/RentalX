@@ -1,11 +1,10 @@
 import { Router, request, response } from "express";
 
-import { CategoriesRepository } from "../modules/cars/repositories/categoriesRepository";
 import { CreateCategoryService } from "../modules/cars/service/CreateCategoryService";
-import { PostgresCategoriesRepository } from "../modules/cars/repositories/PostgresCategoriesRepository";
+import { CategoriesRepository } from "../modules/cars/repositories/CategoriesRepository";
 
 const categoriesRoutes = Router();
-const categoriesRepository = new PostgresCategoriesRepository(); // LSP
+const categoriesRepository = new CategoriesRepository(); // LSP
 
 categoriesRoutes.post("/", (request, response) => {
     const { name, description } = request.body;
