@@ -22,11 +22,11 @@ class ImportCategoryUseCase {
 
             parseFile
                 .on("data", async (line) => {
-                    // ["name", "description"]
                     const [name, description] = line;
                     categories.push({ name, description });
                 })
                 .on("end", () => {
+                    fs.promises.unlink(file.path);
                     resolve(categories);
                 })
                 .on("error", (err) => {
