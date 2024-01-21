@@ -20,7 +20,7 @@ RentalX is an API designed for car rental services. It provides endpoints for ma
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/your-username/rentalx-api.git`
+1. Clone this repository: `git clone https://github.com/sondercs/rentalx-api.git`
 2. Set up the environment and install dependencies
 3. Run the API locally
 4. Access the Swagger documentation to explore available routes
