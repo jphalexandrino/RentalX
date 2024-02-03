@@ -28,7 +28,3 @@ RentalX is an API designed for car rental services. It provides endpoints for ma
 ## Contribution
 
 Contributions are welcome! Feel free to enhance, add features, or report issues. Open a Pull Request or an Issue to start the discussion.
-
-## License
-
-This repository is distributed under the [License Name]. See the `LICENSE` file for more details.
