@@ -25,6 +25,3 @@ RentalX is an API designed for car rental services. It provides endpoints for ma
 3. Run the API locally
 4. Access the Swagger documentation to explore available routes
 
-## Contribution
-
-Contributions are welcome! Feel free to enhance, add features, or report issues. Open a Pull Request or an Issue to start the discussion.
